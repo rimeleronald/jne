@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+		<title>JNE</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/page.css">		
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/page.js"></script>
+	</head>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-lg navbar-light">
+					  	<a class="navbar-brand" href="#">
+							<img src="./img/logo.png" alt="">
+					 	</a>
+					 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					    	<span class="navbar-toggler-icon"></span>
+					  	</button>
+					  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					    	<ul class="navbar-nav mr-auto">
+					      		<li class="nav-item">
+					        		<a class="nav-link" href="#">hírek</a>
+					      		</li>
+					      		<li class="nav-item">
+					        		<a class="nav-link" href="#">jne</a>
+					      		</li>
+					      		<li class="nav-item">
+					        		<a class="nav-link" href="#">ajánlataink</a>
+					      		</li>
+					      		<li class="nav-item dropdown">
+					        		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          			média
+					        		</a>
+					        		<div class="dropdown-menu disable" aria-labelledby="navbarDropdown">
+					          			<a class="dropdown-item" href="#">Galéria</a>
+					          			<a class="dropdown-item" href="#">Rólunk írták</a>
+					          			<a class="dropdown-item" href="#">Vélemények</a>
+					        		</div>
+					      		</li>
+					      		<li class="nav-item">
+					        		<a class="nav-link" href="#">kultúránk</a>
+					      		</li>
+					      		<li class="nav-item">
+					        		<a class="nav-link" href="#">kapcsolat</a>
+					      		</li>
+					    	</ul>
+							<a href="" class="newsletter-btn">
+								<img src="./img/ikon_hirlevel.png" alt="">
+								<p>hírlevél</p>
+							</a>
+					  	</div>
+					</nav>
+				</div>
+			</div>
+		</div>	
+	</header>
+	<body>
+		<section id="home">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="img/kep_slider.png">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="img/slidernek.jpg">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<div class="control-bg">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</div>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<div class="control-bg">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</div>
+				</a>
+			</div>
+			<div class="white-box">
+				<img class="top-left-img" src="./img/slider_motivum.png" alt="motívum">
+				<img class="bot-right-img" src="./img/slider_motivum.png" alt="motívum">
+				<div class="white-box-inner">
+					<h3>adó 1%</h3>
+					<p>Támogasd a Jászság Népi Együttest adód 1%-val!</p>
+				</div>
+			</div>
+		</section>
+		<section id="news">
+			<div class="news-bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<img class="cimmotivum" src="./img/ikon_cimmotivum.png">
+							<h1>hírek</h1>
+						</div>
+						<div class="col-12 col-lg-6">							
+							<div class="news-box news-box-positioner-left">
+								<a href="#home" class="news-box-a">
+									<div class="news-box-overlay">
+										<h5>frissítve</h5>
+										<p class="overlay-date">Ma, 18:00</p>
+									</div>
+									<div class="news-box-img">
+										<img src="./img/kep_esemeny1.png">
+									</div>
+								</a>
+								<div class="news-box-text-content">
+									<a href="#home"class="news-box-text-content-fb">
+										<img class="news-box-fb" src="./img/ikon_fb.png">
+									</a>										
+									<div class="news-box-text">
+										<h4>Esemény neve</h4>
+										<h5>2018. június 1. - június 3</h5>
+										<p>A Jászság Népi Együttes idén ünnepli fennállásának 40 éves jubileumát.
+										Ezen alkalomból 2011. december 09-10-11-én három napos „Jubileumi
+										Vigadalom”...</p>
+									</div>
+								</div>
+								<div class="news-box-media">
+									<img class="news-box-media-img" src="./img/cikk_galeria.png">
+									<img class="news-box-media-img" src="./img/cikk_youtube.png">
+									<img class="news-box-media-img" src="./img/cikk_hirek.png">
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-lg-6">							
+							<div class="news-box news-box-positioner-right">
+								<a href="#home" class="news-box-a">
+									<div class="news-box-overlay">
+										<h5>frissítve</h5>
+										<p class="overlay-date">Ma, 18:00</p>
+									</div>
+									<div class="news-box-img">
+										<img src="./img/kep_esemeny2.png">
+									</div>
+								</a>
+								<div class="news-box-text-content">
+									<a href="#home"class="news-box-text-content-fb">
+										<img class="news-box-fb" src="./img/ikon_fb.png">
+									</a>										
+									<div class="news-box-text">
+										<h4>Esemény neve</h4>
+										<h5>2018. június 1. - június 3</h5>
+										<p>A Jászság Népi Együttes idén ünnepli fennállásának 40 éves jubileumát.
+										Ezen alkalomból 2011. december 09-10-11-én három napos „Jubileumi
+										Vigadalom”...</p>
+									</div>
+								</div>
+								<div class="news-box-media">
+									<img class="news-box-media-img" src="./img/cikk_galeria.png">
+									<img class="news-box-media-img" src="./img/cikk_youtube.png">
+									<img class="news-box-media-img" src="./img/cikk_hirek.png">
+								</div>
+							</div>
+						</div>
+						<div class="col-12 offset-lg-6 col-lg-6">
+							<div class="news-box-btn">
+								<a class="news-btn">További hírek</a>
+							</div>
+						</div>
+						<img class="bot-motivum" src="./img/also_motivum.png">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="jne">
+			<div class="jne-bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<img class="cimmotivum" src="./img/ikon_cimmotivum.png">
+							<h1>j.n.e <span class="jne-head">- Jászság Népi Együttes</span></h1>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="jne-box jne-box-positioner-left">
+								<a href="#home">
+									<img src="./img/jne_bemutatkoz.png">
+									<div class="jne-box-overlay">
+										<div class="jne-box-line">
+										</div>
+										<h3>Bemutatkozás</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="jne-box jne-box-positioner-center">
+								<a href="#home">
+									<img src="./img/jne_dijak.png">
+									<div class="jne-box-overlay">
+										<div class="jne-box-line">
+										</div>
+										<h3>Díjak, eredmények</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="jne-box jne-box-positioner-right">
+								<a href="#home">
+									<img src="./img/jne_kulfoldi.png">
+									<div class="jne-box-overlay">
+										<div class="jne-box-line">
+										</div>
+										<h3>Külföldi szereplések</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="jne-box jne-box-positioner-left">
+								<a href="#home">
+									<img src="./img/jne_repertoar.png">
+									<div class="jne-box-overlay">
+										<div class="jne-box-line">
+										</div>
+										<h3>Repertoár</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="jne-box jne-box-positioner-center">
+								<a href="#home">
+									<img src="./img/jne_okt.png">
+									<div class="jne-box-overlay">
+										<div class="jne-box-line">
+										</div>
+										<h3>Oktatók, alkotók</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="jne-box jne-box-positioner-right">
+								<a href="#home">
+									<img src="./img/jne_tanc.png">
+									<div class="jne-box-overlay">
+										<div class="jne-box-line">
+										</div>
+										<h3>Táncosaink</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="offers">
+			<div class="offers-bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<img class="cimmotivum" src="./img/ikon_cimmotivum.png">
+							<h1>Ajánlataink, együttműködéseink</h1>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="offers-box offers-box-positioner">
+								<a href="#home">
+									<img class="offers-box-img" src="./img/kep_ajanl_program.png">
+									<div class="offers-box-overlay color-1">
+										<img src="./img/ikon_ajanl_program.png">
+										<h2>Program- szervezőknek</h2>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="offers-box offers-box-positioner">
+								<a href="#home">
+									<img class="offers-box-img" src="./img/kep_ajanl_cegek.png">
+									<div class="offers-box-overlay color-2">
+										<img src="./img/ikon_ajanl_cegek.png">
+										<h2>Cégek figyelmébe</h2>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="offers-box offers-box-positioner">
+								<a href="#home">
+									<img class="offers-box-img" src="./img/kep_ajanl_szponzor.png">
+									<div class="offers-box-overlay color-3">
+										<img src="./img/ikon_ajanl_szponzor.png">
+										<h2>Szponzoraink, partnereink</h2>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="offers-box offers-box-positioner">
+								<a href="#home">
+									<img class="offers-box-img" src="./img/kep_ajanl_ado1.png">
+									<div class="offers-box-overlay color-4">
+										<img src="./img/ikon_ajanl_ado1.png">
+										<h2>Támogass adód 1%-val!</h2>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-12">
+							<img src="./img/also_motivum.png" class="offers-box-motivum">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="gallery">
+			<div class="gallery-bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<img class="cimmotivum" src="./img/ikon_cimmotivum_feher.png">
+							<h1>Így látnak bennünket</h1>
+						</div>
+						<div class="col-12">
+							<button class="gallery-tab-btn" onclick="openGallery(event, 'Gallery')" id="defaultOpen">
+								galéria
+							</button>
+							<button class="gallery-tab-btn" onclick="openGallery(event, 'Media')">
+								médiamegjelenések
+							</button>
+							<button class="gallery-tab-btn" onclick="openGallery(event, 'Opinion')">
+								vélemények rólunk
+							</button>
+						</div>
+						<div id="Gallery" class="gallery-tab-content">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-12 col-lg-6">
+										<div class="gallery-box">
+											<div class="gallery-box-img">
+												<div class="gallery-img-positioner-1">
+													<a href="#home">
+														<img src="./img/jne_tanc.png">
+													</a>
+												</div>
+												<div class="gallery-img-positioner-2">
+													<a href="#home">
+														<img src="./img/jne_tanc.png">
+														<div class="gallery-box-img-overlay">
+														</div>
+													</a>
+												</div>
+												<div class="gallery-img-positioner-3">
+													<a href="#home">
+														<img src="./img/jne_tanc.png">
+														<div class="gallery-box-img-overlay">
+															<div class="gallery-box-img-overlay-item">
+															</div>
+														</div>
+													</a>
+												</div>
+											</div>
+											<div class="gallery-box-text">
+												<div class="gallery-box-line">
+												</div>
+												<h3>Kínai turné</h3>
+												<p>2017. szeptember 26 - október 4</p>
+											</div>											
+										</div>
+									</div>
+									<div class="col-12 col-lg-6">
+										<div class="gallery-box">
+											<div class="gallery-box-img">
+												<div class="gallery-img-positioner-1">
+													<a href="#home">
+														<img src="./img/jne_tanc.png">
+													</a>
+												</div>
+												<div class="gallery-img-positioner-2">
+													<a href="#home">
+														<img src="./img/jne_tanc.png">
+														<div class="gallery-box-img-overlay">
+														</div>
+													</a>
+												</div>
+												<div class="gallery-img-positioner-3">
+													<a href="#home">
+														<img src="./img/jne_tanc.png">
+														<div class="gallery-box-img-overlay">
+															<div class="gallery-box-img-overlay-item">
+															</div>
+														</div>
+													</a>
+												</div>
+											</div>
+											<div class="gallery-box-text">
+												<div class="gallery-box-line">
+												</div>
+												<h3>Kínai turné</h3>
+												<p>2017. szeptember 26 - október 4</p>
+											</div>											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="Media" class="gallery-tab-content">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-12 col-lg-6">
+										<div class="gallery-box">
+											<div class="gallery-box-img">
+												<div class="gallery-img-positioner-1">
+													<a href="#home">
+														<img src="./img/jne_tanc.png">
+													</a>
+												</div>
+												<div class="gallery-img-positioner-2">
+													<a href="#home">
+														<img src="./img/jne_tanc.png">
+														<div class="gallery-box-img-overlay">
+														</div>
+													</a>
+												</div>
+												<div class="gallery-img-positioner-3">
+													<a href="#home">
+														<img src="./img/jne_tanc.png">
+														<div class="gallery-box-img-overlay">
+															<div class="gallery-box-img-overlay-item">
+															</div>
+														</div>
+													</a>
+												</div>
+											</div>
+											<div class="gallery-box-text">
+												<div class="gallery-box-line">
+												</div>
+												<h3>Kínai turné</h3>
+												<p>2017. szeptember 26 - október 4</p>
+											</div>											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="Opinion" class="gallery-tab-content">
+							<div class="container-fluid">
+								<div class="row">
+								</div>
+							</div>
+						</div>
+						<div class="col-12">
+							<a class="gallery-btn">
+								<div class="gallery-btn-circle-1">
+								</div>
+								<div class="gallery-btn-circle-2">
+								</div>
+								<div class="gallery-btn-circle-3">
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="culture">
+			<div class="culture-bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<img class="cimmotivum" src="./img/ikon_cimmotivum.png">
+							<h1>A kultúránk virágzása</h1>
+						</div>
+						<div class="col-6 offset-lg-1 col-sm-4 col-lg-2">
+							<div class="culture-box">
+								<a href="#home">
+									<div class="culture-box-img">
+										<img src="./img/kv_csango.png">
+									</div>
+									<div class="culture-box-text">
+										<div class="culture-box-text-inner">
+											<h4>Csángó Fesztivál</h4>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-6 col-sm-4 col-lg-2">
+							<div class="culture-box">
+								<a href="#home">
+									<div class="culture-box-img">
+										<img src="./img/KV_tanctabor.png">
+									</div>
+									<div class="culture-box-text">
+										<div class="culture-box-text-inner">
+											<h4>Nemzetközi Tánctábor</h4>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-6 col-sm-4 col-lg-2">
+							<div class="culture-box">
+								<a href="#home">
+									<div class="culture-box-img">
+										<img src="./img/KV_Vigano.png">
+									</div>
+									<div class="culture-box-text">
+										<div class="culture-box-text-inner">
+											<h4>Viganó Alapfokú Művészeti Iskola</h4>
+											<p>Utánpótlás csoportok</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-6 col-sm-4 col-lg-2">
+							<div class="culture-box">
+								<a href="#home">
+									<div class="culture-box-img">
+										<img src="./img/KV_JNE.png">
+									</div>
+									<div class="culture-box-text">
+										<div class="culture-box-text-inner">
+											<h4>Jászberényi Hagyományörző Táncegyüttes</h4>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-6 col-sm-4 col-lg-2">
+							<div class="culture-box">
+								<a href="#home">
+									<div class="culture-box-img">
+										<img src="./img/KV_Petrence.png">
+									</div>
+									<div class="culture-box-text">
+										<div class="culture-box-text-inner">
+											<h4>Petrence Felnőtt Amatőr Táncegyüttes</h4>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-12">
+							<img class="bot-motivum" src="./img/also_motivum.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer id="contact">
+			<div class="contact-bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<img class="cimmotivum" src="./img/ikon_cimmotivum.png">
+							<h1>Kapcsolat</h1>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="contact-box">
+								<h3>Folklór Kultúrális Közalapítvány</h3>
+								<div class="contact-line">
+								</div>
+								<p><a>Bemutatkozás, alapító okirat, a kuratórium tagjai</a><br/>
+								<a>Közhasznúsági jelentés</a><br/>
+								<a>Pályázati dokumentáció</a></p>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="contact-box">
+								<h3>Közösségi média</h3>
+								<div class="contact-line">
+								</div>
+								<p>Kövessenek bennünket közösségi oldalainkon!</p>
+								<a><img class="contact-media" src="./img/ikon_fb.png"></a>
+								<a><img class="contact-media" src="./img/ikon_insta.png"></a>
+								<a><img class="contact-media" src="./img/ikon_youtube.png"></a>
+								<p><a>Hírlevél feliratkozás</a><br/>
+								<a>Archívum</a></p>
+							</div>
+						</div>
+						<div class="col-12 col-lg-4">
+							<div class="contact-box">
+								<h3>Elérhetőségek</h3>
+								<div class="contact-line">
+								</div>
+								<h5>Folklór Kulturális Közalapítvány</h5>
+								<div class="contact-icon-text-container">
+									<div class="contact-icon-text">
+										<img class="contact-icon" src="./img/ikon_hely.png">
+										<p><a>5100 Jászberény, Víz u. 1.</a></p>
+									</div>
+									<div class="contact-icon-text">
+										<img class="contact-icon" src="./img/ikon_tel.png">
+										<p><a>06-57/503-265</a></p>
+									</div>
+									<div class="contact-icon-text">
+										<img class="contact-icon" src="./img/ikon_email.png">
+										<p><a>jne@jne.hu, </a><a>jaszsagnepiegyuttes@gmail.com</a></p>
+									</div>
+								</div>
+								<p>Adószám: 18823916-2-16<br/>
+								Cégjegyzék szám: PK -61-686<br/>
+								Statisztikai szám: 18823916-7140-561-16<br/>
+								OTP Bankszámlaszám: 11745035-20012371</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

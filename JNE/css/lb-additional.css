@@ -1,0 +1,39 @@
+.lb-nav {
+	background: transparent !important;
+}
+
+.lb-next {
+	position: fixed;
+	top: 20%;
+	height: 60% !important;
+	opacity: 0.5 !important;
+	width: 15% !important;
+}
+
+.lb-next:hover {
+	position: fixed;
+	top: 20%;
+	height: 60% !important;
+	opacity: 1 !important;
+	width: 15% !important;
+}
+
+.lb-prev {
+	position: fixed;
+	top: 20%;
+	height: 60% !important;
+	opacity: 0.5 !important;
+	width: 15% !important;
+}
+
+.lb-prev:hover {
+	position: fixed;
+	top: 20%;
+	height: 60% !important;
+	opacity: 1 !important;
+	width: 15% !important;
+}
+
+.lb-container:hover {
+	cursor: zoom-in !important;
+}
